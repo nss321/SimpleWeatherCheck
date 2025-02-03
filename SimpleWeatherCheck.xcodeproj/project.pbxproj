@@ -6,15 +6,23 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		118DA3AA2D509AD30022E16F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 118DA3A92D509AD30022E16F /* SnapKit */; };
+		118DA3AD2D509ADD0022E16F /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 118DA3AC2D509ADD0022E16F /* Then */; };
+		118DA3B02D509AEB0022E16F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 118DA3AF2D509AEB0022E16F /* Alamofire */; };
+		118DA3C02D50A28D0022E16F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 118DA3BF2D50A2880022E16F /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		118DA38D2D5099C00022E16F /* SimpleWeatherCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleWeatherCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		118DA3BF2D50A2880022E16F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
 		118DA39F2D5099C10022E16F /* Exceptions for "SimpleWeatherCheck" folder in "SimpleWeatherCheck" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Resource/Info.plist,
 			);
 			target = 118DA38C2D5099C00022E16F /* SimpleWeatherCheck */;
 		};
@@ -36,6 +44,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				118DA3B02D509AEB0022E16F /* Alamofire in Frameworks */,
+				118DA3AA2D509AD30022E16F /* SnapKit in Frameworks */,
+				118DA3AD2D509ADD0022E16F /* Then in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +56,7 @@
 		118DA3842D5099C00022E16F = {
 			isa = PBXGroup;
 			children = (
+				118DA3BF2D50A2880022E16F /* .gitignore */,
 				118DA38F2D5099C00022E16F /* SimpleWeatherCheck */,
 				118DA38E2D5099C00022E16F /* Products */,
 			);
@@ -78,6 +90,9 @@
 			);
 			name = SimpleWeatherCheck;
 			packageProductDependencies = (
+				118DA3A92D509AD30022E16F /* SnapKit */,
+				118DA3AC2D509ADD0022E16F /* Then */,
+				118DA3AF2D509AEB0022E16F /* Alamofire */,
 			);
 			productName = SimpleWeatherCheck;
 			productReference = 118DA38D2D5099C00022E16F /* SimpleWeatherCheck.app */;
@@ -107,6 +122,11 @@
 			);
 			mainGroup = 118DA3842D5099C00022E16F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				118DA3A82D509AD30022E16F /* XCRemoteSwiftPackageReference "SnapKit" */,
+				118DA3AB2D509ADD0022E16F /* XCRemoteSwiftPackageReference "Then" */,
+				118DA3AE2D509AEB0022E16F /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 118DA38E2D5099C00022E16F /* Products */;
 			projectDirPath = "";
@@ -122,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				118DA3C02D50A28D0022E16F /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,10 +168,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W43DLLFB4Q;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SimpleWeatherCheck/Info.plist;
+				INFOPLIST_FILE = SimpleWeatherCheck/Resource/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "날씨췍";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "사용자의 위치를 기반으로 날씨 정보를 가져오기 위해 위치 정보 권한이 필요합니다. 위치 정보 권한을 허용하시겠습니까?";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -175,10 +197,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W43DLLFB4Q;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SimpleWeatherCheck/Info.plist;
+				INFOPLIST_FILE = SimpleWeatherCheck/Resource/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "날씨췍";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "사용자의 위치를 기반으로 날씨 정보를 가져오기 위해 위치 정보 권한이 필요합니다. 위치 정보 권한을 허용하시겠습니까?";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -335,6 +358,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		118DA3A82D509AD30022E16F /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		118DA3AB2D509ADD0022E16F /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		118DA3AE2D509AEB0022E16F /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		118DA3A92D509AD30022E16F /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 118DA3A82D509AD30022E16F /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		118DA3AC2D509ADD0022E16F /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 118DA3AB2D509ADD0022E16F /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		118DA3AF2D509AEB0022E16F /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 118DA3AE2D509AEB0022E16F /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 118DA3852D5099C00022E16F /* Project object */;
 }
